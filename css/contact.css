@@ -1,0 +1,99 @@
+@import url(common.css);
+
+main article form div.flex {
+  border: 2px solid #4a4a4a;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0px 10px 0px;
+}
+
+main article form div.left {
+  padding-right: 30px;
+  width: 40.09%;
+}
+
+main article form div.right {
+  width: 40.09%;
+}
+
+main article form legend {
+  text-align: left;
+  font-weight: bold;
+}
+
+main article form legend span {
+  padding-left: 6px;
+}
+
+main input[type="text"],
+main input[type="email"],
+main input[type="tel"],
+main textarea {
+  width: 100%;
+  height: 44px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+main textarea {
+  height: 270px;
+}
+
+main article p.kome {
+  padding-top: 10px;
+  text-align: right;
+  padding-bottom: 20px;
+}
+
+main article p button {
+  background: #6b5311;
+  color: #fffdf8;
+  padding: 16.5px 62px;
+  cursor: pointer;
+  margin-bottom: 67px;
+  border: none;
+}
+
+main button:hover {
+  opacity: 0.7;
+}
+
+main article aside.cozin {
+  color: #fff;
+  max-width: 730px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #6b5311;
+  padding: 13px 30px;
+}
+
+main article aside.cozin p {
+  padding-top: 6px;
+  text-align: left;
+}
+
+@media (max-width: 575px) {
+  main article form div.flex {
+    display: block;
+    margin: 0px 15px;
+    padding: 30px 30px 0px 30px;
+  }
+
+  main article form div.left {
+    width: unset;
+    padding: unset;
+  }
+
+  main article form div.right {
+    width: unset;
+    padding: unset;
+  }
+  main article form div.left {
+    padding-right: unset;
+  }
+
+  main {
+    padding-bottom: 30px;
+    padding: unset;
+  }
+}

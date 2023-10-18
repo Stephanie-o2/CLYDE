@@ -1,0 +1,88 @@
+@import url(common.css);
+
+/* 記事 */
+/* main article h1 {
+  font-family: "Kaisei Tokumin", serif;
+  padding-top: 31px;
+  font-size: 40px;
+  font-weight: bold;
+  background-image: url(../img/since\ 1.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  padding-bottom: 67px;
+} */
+
+main article div {
+  margin-top: 65px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* セクション・共通 */
+main article section {
+  font-size: 18px;
+  flex-basis: 47.37%;
+  border: #4a4a4a solid 2px;
+  margin-bottom: 65px;
+  padding-top: 44px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* 中見出し・共通 */
+main article section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #54410c;
+  padding-top: 22px;
+  padding-bottom: 48px;
+  background-image: url(../img/line.svg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  margin-bottom: 22px;
+}
+
+/* ホバー・不透明 */
+main section p a:hover {
+  opacity: 0.7;
+}
+
+/* 説明・共通 */
+main section p.explanation {
+  color: #1d1502;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  padding-bottom: 12px;
+}
+
+/* 価格・共通 */
+main section p.price {
+  font-size: 24px;
+  color: #54410c;
+  padding-bottom: 19px;
+}
+
+/* 詳しく・共通 */
+main section p.detail a {
+  display: block;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #6b5311;
+  color: #fffdf8;
+  padding: 16.5px;
+  background-image: url(../img/Vector.png);
+  background-repeat: no-repeat;
+  background-position: center right 24px;
+  margin-bottom: 44px;
+  width: 83.3%;
+}
+
+@media (max-width: 991px) {
+  main article div {
+    display: block;
+  }
+}
